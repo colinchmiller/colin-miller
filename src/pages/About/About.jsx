@@ -1,3 +1,3 @@
 export function About(props) {
-  return <div>About</div>;
+  return <h1>About</h1>;
 }
