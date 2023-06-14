@@ -4,17 +4,16 @@ import { Link } from "react-router-dom";
 export function Header(props) {
   return (
     <header className={s.header}>
-      <nav>
+      <nav className={s.nav}>
         <ul>
-          <li>
-            {" "}
+          <li className={s.nav_item}>
             <Link to="/">Home</Link>
-            <li>
-              <Link to="/about">About Me</Link>
-            </li>
-            <li>
-              <Link to="/experience">My Experience</Link>
-            </li>
+          </li>
+          <li className={s.nav_item}>
+            <Link to="/about">About Me</Link>
+          </li>
+          <li className={s.nav_item}>
+            <Link to="/experience">My Experience</Link>
           </li>
         </ul>
       </nav>
