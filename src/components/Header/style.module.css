@@ -1,22 +1,3 @@
-/* .header {
+.header {
   background-color: #bdbdbd;
 }
-.nav {
-  margin-bottom: 300px;
-}
-.nav > ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-}
-.nav_item {
-  margin: 10px;
-}
-.nav_item > a,
-.nav_item > a:visited {
-  text-decoration: none;
-  color: black;
-}
-.nav_item > a:active {
-  color: white;
-} */

@@ -28,22 +28,6 @@ export function Header(props) {
           </li>
         </ul>
       </nav>
-      {/* <nav className={`navbar navbar-expand-lg ${s.nav}`}>
-        <ul className={`navbar-nav`}>
-          <li className={`nav-item ${s.nav_item}`}>
-            <Link to="/">Home</Link>
-          </li>
-          <li className={`nav-item ${s.nav_item}`}>
-            <Link to="/about">About Me</Link>
-          </li>
-          <li className={`nav-item ${s.nav_item}`}>
-            <Link to="/experience">My Experience</Link>
-          </li>
-          <li className={`nav-item ${s.nav_item}`}>
-            <Link to="/skills">My Skills</Link>
-          </li>
-        </ul>
-      </nav> */}
     </header>
   );
 }
