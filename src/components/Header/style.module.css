@@ -12,6 +12,11 @@
 .nav_item {
   margin: 10px;
 }
-.nav_item > a {
+.nav_item > a,
+.nav_item > a:visited {
   text-decoration: none;
+  color: black;
+}
+.nav_item > a:active {
+  color: white;
 }

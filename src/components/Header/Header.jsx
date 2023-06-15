@@ -15,6 +15,9 @@ export function Header(props) {
           <li className={s.nav_item}>
             <Link to="/experience">My Experience</Link>
           </li>
+          <li className={s.nav_item}>
+            <Link to="/skills">My Skills</Link>
+          </li>
         </ul>
       </nav>
     </header>
