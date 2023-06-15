@@ -4,29 +4,29 @@ import { Link } from "react-router-dom";
 export function Header(props) {
   return (
     <header className={s.header}>
-      <nav className={`navbar navbar-expand-lg`}>
-        <ul className={`navbar-nav me-auto mb-2 mb-lg-0`}>
-          <li className={`nav-item`}>
-            <Link className={`nav-link`} to="/">
-              Home
-            </Link>
-          </li>
-          <li className={`nav-item`}>
-            <Link className={`nav-link`} to="/about">
-              About
-            </Link>
-          </li>
-          <li className={`nav-item`}>
-            <Link className={`nav-link`} to="/experience">
-              Experience
-            </Link>
-          </li>
-          <li className={`nav-item`}>
-            <Link className={`nav-link`} to="/skills">
-              Skills
-            </Link>
-          </li>
-        </ul>
+      <nav className={`navbar navbar-expand-md bg-primary-subtle`}>
+        <div className="container-fluid">
+          <Link className={`navbar-brand`} to="/">
+            Colin Miller
+          </Link>
+          <ul className={`navbar-nav me-auto`}>
+            <li className={`nav-item`}>
+              <Link className={`nav-link`} to="/about">
+                About
+              </Link>
+            </li>
+            <li className={`nav-item`}>
+              <Link className={`nav-link`} to="/experience">
+                Experience
+              </Link>
+            </li>
+            <li className={`nav-item`}>
+              <Link className={`nav-link`} to="/skills">
+                Skills
+              </Link>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
   );
