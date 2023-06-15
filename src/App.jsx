@@ -1,7 +1,7 @@
-import s from "./style.module.css";
-
 import { Header } from "./components/Header/Header";
 import { Outlet } from "react-router-dom";
+import { Footer } from "./components/Footer/Footer";
+import s from "./style.module.css";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <div>
         <Outlet />
       </div>
-      <footer>Contact information</footer>
+      <Footer />
     </div>
   );
 }
