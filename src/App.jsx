@@ -1,6 +1,5 @@
 import { Header } from "./components/Header/Header";
 import { Outlet } from "react-router-dom";
-import { Footer } from "./components/Footer/Footer";
 import s from "./style.module.css";
 
 function App() {
@@ -10,7 +9,6 @@ function App() {
       <div>
         <Outlet />
       </div>
-      <Footer />
     </div>
   );
 }
