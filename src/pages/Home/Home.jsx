@@ -1,6 +1,6 @@
 export function Home(props) {
   return (
-    <div>
+    <div className="container">
       <h1>Home</h1>
       <div>Picture of Me</div>
       <div>

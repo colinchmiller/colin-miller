@@ -1,6 +1,6 @@
 export function Skills(props) {
   return (
-    <div>
+    <div className="container">
       <h1>My Skills</h1>
       <div>
         Opportunity to showcase graphs and animations
