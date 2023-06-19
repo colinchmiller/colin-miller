@@ -4,15 +4,16 @@ import s from "./style.module.css";
 export function Home(props) {
   return (
     <div className="container">
-      <div class="row">
+      <div class="row mt-5">
         <div className="col-md-6">
           <img className={`img-fluid ${s.profile_img}`} src={profilePic}></img>
         </div>
 
         <div className="col-md-6">
-          <div className="card">
+          <div className="card p-3">
             <h2>Hello!</h2>
-            <p>My name is Colin Miller and I'm a web developer</p>
+            <p>My name is Colin Miller and I'm a web developer.</p>
+            <p>More content? Something interactive?</p>
           </div>
         </div>
       </div>
