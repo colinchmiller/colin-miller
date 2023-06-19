@@ -6,7 +6,11 @@ export function Home(props) {
     <div className="container">
       <div class="row mt-5">
         <div className="col-md-6">
-          <img className={`img-fluid ${s.profile_img}`} src={profilePic}></img>
+          <img
+            className={`img-fluid ${s.profile_img}`}
+            src={profilePic}
+            alt="Colin Miller"
+          ></img>
         </div>
 
         <div className="col-md-6">
