@@ -44,7 +44,30 @@ export function Experience(props) {
                 ></button>
               </div>
               <div className="modal-body">
-                Details of what I did at Datasite
+                <ul>
+                  <li>
+                    Crafted custom components for use on the marketing website,
+                    including rebuilding and migrating content for two website
+                    redesign and relaunches
+                  </li>
+                  <li>
+                    Integrated third party applications into the website
+                    structure
+                  </li>
+                  <li>
+                    Wrote documentation for marketers to use with the website
+                    content management system
+                  </li>
+                  <li>
+                    Led training sessions for employees after major technology
+                    changes and for onboarding
+                  </li>
+                  <li>
+                    Troubleshot website issues and assisted with user support
+                  </li>
+                  <li>Facilitated webpage authoring and publishing</li>
+                  <li>Ensured website ADA and cookie privacy standards</li>
+                </ul>{" "}
               </div>
             </div>
           </div>
@@ -58,7 +81,6 @@ export function Experience(props) {
           >
             <h3>Hearth and Home</h3>
             <h4>Web Developer</h4>
-            <p>A description of the work at Hearth and Home</p>
           </div>
         </div>
 
@@ -83,7 +105,21 @@ export function Experience(props) {
                 ></button>
               </div>
               <div className="modal-body">
-                Details of work at Hearth and home
+                <ul>
+                  <li>
+                    Redesigned and restructured websites for seven fireplace
+                    brands
+                  </li>
+                  <li>Built custom landing pages for marketing campaigns</li>
+                  <li>
+                    Planned structured email campaigns, charting user action and
+                    company response
+                  </li>
+                  <li>
+                    Constructed structure and style templates for promotional
+                    emails
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -97,7 +133,6 @@ export function Experience(props) {
           >
             <h3>Gem Salon and Spa</h3>
             <h4>Web Developer</h4>
-            <p>A description of the work at Gem</p>
           </div>
         </div>
 
@@ -121,7 +156,14 @@ export function Experience(props) {
                   aria-label="Close"
                 ></button>
               </div>
-              <div class="modal-body">Details of the work at Gem</div>
+              <div class="modal-body">
+                <ul>
+                  <li>Analyzed and edited content for SEO optimization</li>
+                  <li>
+                    Collaborated with designers to spec a new website layout
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -157,7 +199,19 @@ export function Experience(props) {
                   aria-label="Close"
                 ></button>
               </div>
-              <div className="modal-body">Details of Eleven</div>
+              <div className="modal-body">
+                <ul>
+                  <li>
+                    Designed and prototyped sample websites for potential
+                    clients as sales leads
+                  </li>
+                  <li>Updated and troubleshot issues for existing clients</li>
+                  <li>
+                    Customized WordPress themes for clients with a focus on
+                    mobile responsivity
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
