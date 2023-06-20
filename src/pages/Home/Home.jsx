@@ -4,7 +4,7 @@ import s from "./style.module.css";
 export function Home(props) {
   return (
     <div className="container">
-      <div class="row mt-5">
+      <div className="row mt-5">
         <div className="col-md-6">
           <img
             className={`img-fluid ${s.profile_img}`}
@@ -23,23 +23,47 @@ export function Home(props) {
             <h2>Skills</h2>
           </div>
           <div className={s.bubble_cloud}>
-            <div className={s.cloud_content}>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-                <li>React</li>
-                <li>Bootstrap</li>
-                <li>Node.js</li>
-                <li>Firebase</li>
-                <li>WordPress</li>
-                <li>AEM</li>
-                <li>Shopify</li>
-                <li>Sitecore</li>
-                <li>Git</li>
-              </ul>
-            </div>
+            <ul className={s.cloud_content}>
+              <li className={`${s.bubble} ${s.w_1}`}>
+                <p className={s.bubble_text}>HTML</p>
+              </li>
+              <li className={`${s.bubble} ${s.w_1}`}>
+                <p className={s.bubble_text}>CSS</p>
+              </li>
+              <li className={`${s.bubble} ${s.w_1}`}>
+                <p className={s.bubble_text}>JavaScript</p>
+              </li>
+              <li className={`${s.bubble} ${s.w_1}`}>
+                <p className={s.bubble_text}>jQuery</p>
+              </li>
+              <li className={`${s.bubble} ${s.w_1}`}>
+                <p className={s.bubble_text}>React.js</p>
+              </li>
+              <li className={`${s.bubble} ${s.w_1}`}>
+                <p className={s.bubble_text}>Bootstrap</p>
+              </li>
+              <li className={`${s.bubble} ${s.w_1}`}>
+                <p className={s.bubble_text}>Node.js</p>
+              </li>
+              <li className={`${s.bubble} ${s.w_1}`}>
+                <p className={s.bubble_text}>Firebase</p>
+              </li>
+              <li className={`${s.bubble} ${s.w_1}`}>
+                <p className={s.bubble_text}>WordPress</p>
+              </li>
+              <li className={`${s.bubble} ${s.w_1}`}>
+                <p className={s.bubble_text}>AEM</p>
+              </li>
+              <li className={`${s.bubble} ${s.w_1}`}>
+                <p className={s.bubble_text}>Shopify</p>
+              </li>
+              <li className={`${s.bubble} ${s.w_1}`}>
+                <p className={s.bubble_text}>Sitecote</p>
+              </li>
+              <li className={`${s.bubble} ${s.w_1}`}>
+                <p className={s.bubble_text}>git</p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
