@@ -11,18 +11,13 @@ export function Header(props) {
           </Link>
           <ul className={`navbar-nav me-auto`}>
             <li className={`nav-item`}>
-              <Link className={`nav-link`} to="/about">
-                About
-              </Link>
-            </li>
-            <li className={`nav-item`}>
               <Link className={`nav-link`} to="/experience">
                 Experience
               </Link>
             </li>
             <li className={`nav-item`}>
-              <Link className={`nav-link`} to="/skills">
-                Skills
+              <Link className={`nav-link`} to="/about">
+                About me
               </Link>
             </li>
           </ul>
