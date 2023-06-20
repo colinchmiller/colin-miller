@@ -20,7 +20,7 @@ export function Experience(props) {
           >
             <h3>Datasite</h3>
             <h4>Web Developer</h4>
-            <p>A description of the work at Datasite</p>
+            <p>April 2019 - March 2023</p>
           </div>
         </div>
         <div
@@ -81,6 +81,7 @@ export function Experience(props) {
           >
             <h3>Hearth and Home</h3>
             <h4>Web Developer</h4>
+            <p>March 2018 - December 2018</p>
           </div>
         </div>
 
@@ -132,7 +133,8 @@ export function Experience(props) {
             data-bs-target="#gem"
           >
             <h3>Gem Salon and Spa</h3>
-            <h4>Web Developer</h4>
+            <h4>Content Management Specialist</h4>
+            <p>December 2017 - June 2018</p>
           </div>
         </div>
 
@@ -175,7 +177,7 @@ export function Experience(props) {
           >
             <h3>Eleven Design Co</h3>
             <h4>Web Developer Contractor</h4>
-            <p>A description of the work at Eleven</p>
+            <p>April 2016 - July 2016</p>
           </div>
         </div>
 
@@ -223,7 +225,7 @@ export function Experience(props) {
           >
             <h3>Braun Intertec</h3>
             <h4>IT Help Desk Contractor</h4>
-            <p>A description of the work at Braun Intertec</p>
+            <p>November 2014 - May 2015</p>
           </div>
         </div>
         <div
@@ -257,8 +259,8 @@ export function Experience(props) {
             data-bs-target="#geekSquad"
           >
             <h3>Geek Squad</h3>
-            <h4>Customer Support Specialist</h4>
-            <p>A description of the work at Geek Squad</p>
+            <h4>Consultation Agent</h4>
+            <p>February 2014 - August 2014</p>
           </div>
         </div>
         <div
