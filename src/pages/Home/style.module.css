@@ -1,13 +1,12 @@
-.profile_img {
-}
 .bubble_cloud {
   background-color: white;
 }
 .bubble_content {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 .bubble {
-  list-style-type: none;
   background-color: yellow;
   border: 1px solid black;
   border-radius: 50%;
@@ -27,4 +26,12 @@
 .w_1 {
   width: 100px;
   height: 100px;
+}
+
+.test {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flex {
 }

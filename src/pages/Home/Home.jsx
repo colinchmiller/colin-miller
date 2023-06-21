@@ -19,51 +19,61 @@ export function Home(props) {
             <p>My name is Colin Miller and I'm a web developer.</p>
             <p>More content? Something interactive?</p>
           </div>
-          <div className="row">
-            <h2>Skills</h2>
-          </div>
-          <div className={s.bubble_cloud}>
-            <ul className={s.cloud_content}>
-              <li className={`${s.bubble} ${s.w_1}`}>
-                <p className={s.bubble_text}>HTML</p>
-              </li>
-              <li className={`${s.bubble} ${s.w_1}`}>
-                <p className={s.bubble_text}>CSS</p>
-              </li>
-              <li className={`${s.bubble} ${s.w_1}`}>
-                <p className={s.bubble_text}>JavaScript</p>
-              </li>
-              <li className={`${s.bubble} ${s.w_1}`}>
-                <p className={s.bubble_text}>jQuery</p>
-              </li>
-              <li className={`${s.bubble} ${s.w_1}`}>
-                <p className={s.bubble_text}>React.js</p>
-              </li>
-              <li className={`${s.bubble} ${s.w_1}`}>
-                <p className={s.bubble_text}>Bootstrap</p>
-              </li>
-              <li className={`${s.bubble} ${s.w_1}`}>
-                <p className={s.bubble_text}>Node.js</p>
-              </li>
-              <li className={`${s.bubble} ${s.w_1}`}>
-                <p className={s.bubble_text}>Firebase</p>
-              </li>
-              <li className={`${s.bubble} ${s.w_1}`}>
-                <p className={s.bubble_text}>WordPress</p>
-              </li>
-              <li className={`${s.bubble} ${s.w_1}`}>
-                <p className={s.bubble_text}>AEM</p>
-              </li>
-              <li className={`${s.bubble} ${s.w_1}`}>
-                <p className={s.bubble_text}>Shopify</p>
-              </li>
-              <li className={`${s.bubble} ${s.w_1}`}>
-                <p className={s.bubble_text}>Sitecote</p>
-              </li>
-              <li className={`${s.bubble} ${s.w_1}`}>
-                <p className={s.bubble_text}>git</p>
-              </li>
-            </ul>
+        </div>
+
+        <div className="row mt-5">
+          <h2>Skills</h2>
+        </div>
+        <div className={s.bubble_cloud}>
+          <div className={s.bubble_content}>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>HTML</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>CSS</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>JavaScript</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>HTML</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>CSS</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>JavaScript</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>jQuery</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>React.js</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>Bootstrap</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>Node.js</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>Firebase</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>WordPress</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>AEM</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>Shopify</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>Sitecote</p>
+            </div>
+            <div className={`${s.bubble} ${s.w_1}`}>
+              <p className={s.bubble_text}>Git</p>
+            </div>
           </div>
         </div>
       </div>
