@@ -17,55 +17,56 @@ export function Home(props) {
           <div className="card p-3">
             <h2>Hello!</h2>
             <p>My name is Colin Miller and I'm a web developer.</p>
-            <p>More content? Something interactive?</p>
-          </div>
-        </div>
 
-        <div className="row mt-5">
-          <h2>Skills</h2>
-        </div>
-        <div className={s.word_cloud}>
-          <ul>
-            <li>
-              <a href="#">HTML</a>
-            </li>
-            <li>
-              <a href="#">CSS</a>
-            </li>
-            <li>
-              <a href="#">JavaScript</a>
-            </li>
-            <li>
-              <a href="#">jQuery</a>
-            </li>
-            <li>
-              <a href="#">React.js</a>
-            </li>
-            <li>
-              <a href="#">Bootstrap</a>
-            </li>
-            <li>
-              <a href="#">Node.js</a>
-            </li>
-            <li>
-              <a href="#">AEM</a>
-            </li>
-            <li>
-              <a href="#">WordPress</a>
-            </li>
-            <li>
-              <a href="#">Sitecore</a>
-            </li>
-            <li>
-              <a href="#">Git</a>
-            </li>
-            <li>
-              <a href="#">Firebase</a>
-            </li>
-            <li>
-              <a href="#">Shopify</a>
-            </li>
-          </ul>
+            <div className="row mt-5">
+              <h2>Skills</h2>
+
+              <div className={s.word_cloud}>
+                <ul className={s.cloud_content}>
+                  <li>
+                    <h4 data-weight="8">JavaScript</h4>
+                  </li>
+                  <li>
+                    <h4 data-weight="5">Bootstrap</h4>
+                  </li>
+
+                  <li>
+                    <h4 data-weight="4">React</h4>
+                  </li>
+                  <li>
+                    <h4 data-weight="9">CSS</h4>
+                  </li>
+                  <li>
+                    <h4 data-weight="3">Node.js</h4>
+                  </li>
+                  <li>
+                    <h4 data-weight="5">AEM</h4>
+                  </li>
+                  <li>
+                    <h4 data-weight="7">jQuery</h4>
+                  </li>
+                  <li>
+                    <h4 data-weight="2">WordPress</h4>
+                  </li>
+                  <li>
+                    <h4 data-weight="1">Sitecore</h4>
+                  </li>
+                  <li>
+                    <h4 data-weight="5">Git</h4>
+                  </li>
+                  <li>
+                    <h4 data-weight="3">Firebase</h4>
+                  </li>
+                  <li>
+                    <h4 data-weight="9">HTML</h4>
+                  </li>
+                  <li>
+                    <h4 data-weight="1">Shopify</h4>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
