@@ -1,22 +1,25 @@
 .word_cloud {
-  background-color: white;
+  background-color: #eef0ff;
+  position: relative;
 }
 .cloud_content {
-  list-style-type: none;
-  padding-left: 0;
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
-  align-items: center;
+  align-content: center;
   justify-content: center;
-  line-height: 2.5rem;
+  gap: 5px;
+}
+
+.cloud_content :nth-child(3n) {
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: vertical-lr;
+  color: #0090c1;
 }
 .cloud_content h4 {
   color: #a33;
-  display: block;
   font-size: 1.5rem;
   padding: 0.125rem 0.25rem;
-  text-decoration: none;
-  position: relative;
 }
 .cloud_content h4[data-weight="1"] {
   --size: 1;

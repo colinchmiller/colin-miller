@@ -4,17 +4,19 @@ export function Experience(props) {
   return (
     <div className="container">
       <div className="row mt-5">
-        <h1>Experience</h1>
+        <h1>Experience in Tech</h1>
         <div>
-          Could do cards of different jobs that, when selected, either expand or
-          flip to reveal more information
+          <p>
+            When it comes to technology, I like to learn and follow the
+            opportunities that present themselves.
+          </p>
         </div>
       </div>
 
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5">
         <div className="col">
           <div
-            className={`card p-2 mb-2 ${s.experience_card}`}
+            className={`card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#datasite"
           >
@@ -75,7 +77,7 @@ export function Experience(props) {
 
         <div className="col">
           <div
-            className={`card p-2 mb-2 ${s.experience_card}`}
+            className={`card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#hearthAndHome"
           >
@@ -128,7 +130,7 @@ export function Experience(props) {
 
         <div className="col">
           <div
-            className={`card p-2 mb-2 ${s.experience_card}`}
+            className={`card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#gem"
           >
@@ -171,7 +173,7 @@ export function Experience(props) {
         </div>
         <div className="col">
           <div
-            className={`card p-2 mb-2 ${s.experience_card}`}
+            className={`card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#eleven"
           >
@@ -219,7 +221,7 @@ export function Experience(props) {
         </div>
         <div className="col">
           <div
-            className={`card p-2 mb-2 ${s.experience_card}`}
+            className={`card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#braun"
           >
@@ -254,7 +256,7 @@ export function Experience(props) {
         </div>
         <div className="col">
           <div
-            className={`card p-2 mb-2 ${s.experience_card}`}
+            className={`card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#geekSquad"
           >

@@ -22,48 +22,21 @@ export function Home(props) {
               <h2>Skills</h2>
 
               <div className={s.word_cloud}>
-                <ul className={s.cloud_content}>
-                  <li>
-                    <h4 data-weight="8">JavaScript</h4>
-                  </li>
-                  <li>
-                    <h4 data-weight="5">Bootstrap</h4>
-                  </li>
-
-                  <li>
-                    <h4 data-weight="4">React</h4>
-                  </li>
-                  <li>
-                    <h4 data-weight="9">CSS</h4>
-                  </li>
-                  <li>
-                    <h4 data-weight="3">Node.js</h4>
-                  </li>
-                  <li>
-                    <h4 data-weight="5">AEM</h4>
-                  </li>
-                  <li>
-                    <h4 data-weight="7">jQuery</h4>
-                  </li>
-                  <li>
-                    <h4 data-weight="2">WordPress</h4>
-                  </li>
-                  <li>
-                    <h4 data-weight="1">Sitecore</h4>
-                  </li>
-                  <li>
-                    <h4 data-weight="5">Git</h4>
-                  </li>
-                  <li>
-                    <h4 data-weight="3">Firebase</h4>
-                  </li>
-                  <li>
-                    <h4 data-weight="9">HTML</h4>
-                  </li>
-                  <li>
-                    <h4 data-weight="1">Shopify</h4>
-                  </li>
-                </ul>
+                <div className={s.cloud_content}>
+                  <h4 data-weight="5">Bootstrap</h4>
+                  <h4 data-weight="8">JavaScript</h4>
+                  <h4 data-weight="5">React</h4>
+                  <h4 data-weight="9">CSS</h4>
+                  <h4 data-weight="3">Node.js</h4>
+                  <h4 data-weight="5">AEM</h4>
+                  <h4 data-weight="7">jQuery</h4>
+                  <h4 data-weight="3">WordPress</h4>
+                  <h4 data-weight="1">Sitecore</h4>
+                  <h4 data-weight="5">Git</h4>
+                  <h4 data-weight="3">Firebase</h4>
+                  <h4 data-weight="9">HTML</h4>
+                  <h4 data-weight="1">Shopify</h4>
+                </div>
               </div>
             </div>
           </div>

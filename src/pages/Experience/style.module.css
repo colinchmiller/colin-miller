@@ -1,5 +1,6 @@
 .experience_card {
   cursor: pointer;
+  text-align: center;
 }
 .experience_card:hover {
   background-color: #2a5ebf;
