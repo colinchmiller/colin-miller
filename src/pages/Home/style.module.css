@@ -21,7 +21,7 @@
   font-size: 1.5rem;
   padding: 0.125rem 0.25rem;
 }
-.cloud_content h4[data-weight="1"] {
+/* .cloud_content h4[data-weight="1"] {
   --size: 1;
 }
 .cloud_content h4[data-weight="2"] {
@@ -47,10 +47,72 @@
 }
 .cloud_content h4[data-weight="9"] {
   --size: 9;
-}
+} */
 
 .cloud_content h4 {
   --size: 4;
   font-size: calc(var(--size) * 0.25rem + 0.5rem);
   opacity: calc((15 - (9 - var(--size))) / 15);
+}
+
+.cloud_content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  grid-template:
+    "Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap"
+    "Javascript Javascript Javascript Javascript Javascript Javascript Javascript"
+    "React React React React React React React"
+    "Css Css Css Css Css Css Css"
+    "Node Node Node Node Node Node Node"
+    "Aem Aem Aem Aem Aem Aem Aem"
+    "Jquery Jquery Jquery Jquery Jquery Jquery Jquery"
+    "Wordpress Wordpress Wordpress Wordpress Wordpress Wordpress Wordpress"
+    "Sitecore Sitecore Sitecore Sitecore Sitecore Sitecore Sitecore"
+    "Git Git Git Git Git Git Git"
+    "Firebase Firebase Firebase Firebase Firebase Firebase Firebase"
+    "Html Html Html Html Html Html Html"
+    "Shopify Shopify Shopify Shopify Shopify Shopify Shopify";
+}
+
+#bootstrap {
+  grid-area: Bootstrap;
+}
+#javascript {
+  grid-area: Javascript;
+}
+#react {
+  grid-area: React;
+}
+#css {
+  grid-area: Css;
+}
+#node {
+  grid-area: Node;
+}
+#aem {
+  grid-area: Aem;
+}
+#jquery {
+  grid-area: Jquery;
+}
+#wordpress {
+  grid-area: Wordpress;
+}
+#sitecore {
+  grid-area: Sitecore;
+}
+#git {
+  grid-area: Git;
+}
+#firebase {
+  grid-area: Firebase;
+}
+#html {
+  grid-area: Html;
+}
+#shopify {
+  grid-area: Shopify;
 }
