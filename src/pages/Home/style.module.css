@@ -1,10 +1,10 @@
 .word_cloud {
+  height: 500px;
   background-color: #eef0ff;
   position: relative;
 }
 .cloud_content {
   display: grid;
-  flex-wrap: wrap;
   align-content: center;
   justify-content: center;
   gap: 5px;
@@ -20,8 +20,9 @@
   color: #a33;
   font-size: 1.5rem;
   padding: 0.125rem 0.25rem;
+  margin: 0;
 }
-/* .cloud_content h4[data-weight="1"] {
+.cloud_content h4[data-weight="1"] {
   --size: 1;
 }
 .cloud_content h4[data-weight="2"] {
@@ -47,7 +48,7 @@
 }
 .cloud_content h4[data-weight="9"] {
   --size: 9;
-} */
+}
 
 .cloud_content h4 {
   --size: 4;
@@ -62,19 +63,10 @@
   left: 0;
   right: 0;
   grid-template:
-    "Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap"
-    "Javascript Javascript Javascript Javascript Javascript Javascript Javascript"
-    "React React React React React React React"
-    "Css Css Css Css Css Css Css"
-    "Node Node Node Node Node Node Node"
-    "Aem Aem Aem Aem Aem Aem Aem"
-    "Jquery Jquery Jquery Jquery Jquery Jquery Jquery"
-    "Wordpress Wordpress Wordpress Wordpress Wordpress Wordpress Wordpress"
-    "Sitecore Sitecore Sitecore Sitecore Sitecore Sitecore Sitecore"
-    "Git Git Git Git Git Git Git"
-    "Firebase Firebase Firebase Firebase Firebase Firebase Firebase"
-    "Html Html Html Html Html Html Html"
-    "Shopify Shopify Shopify Shopify Shopify Shopify Shopify";
+    ". Node Html Javascript Javascript  . "
+    "Sitecore Css Html Git React Jquery "
+    "Sitecore Bootstrap Bootstrap Firebase React Aem  "
+    ". . Shopify . Wordpress Aem ";
 }
 
 #bootstrap {
