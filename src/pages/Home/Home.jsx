@@ -16,11 +16,19 @@ export function Home(props) {
         <div className="col-md-6">
           <div className="card p-3">
             <h2>Hello!</h2>
-            <p>My name is Colin Miller and I'm a web developer.</p>
-
+            <p>
+              My name is Colin Miller. I'm a web developer, and this is a simple
+              site that I built to practice my skills and experiment with new
+              features.
+            </p>
+            <p>I live in Minneapolis, Minnesota.</p>
             <div className="row mt-5">
               <h2>Skills</h2>
-
+              <p>
+                I'm always looking to build new skills and practice existing
+                ones. Below is a word cloud of the skills I've been developing.
+                The size of each is related to how much I've worked in each.
+              </p>
               <div className={s.word_cloud}>
                 <div className={s.cloud_content}>
                   <h4 id={s.bootstrap} data-weight="5">
@@ -47,7 +55,7 @@ export function Home(props) {
                   <h4 id={s.wordpress} data-weight="3">
                     WordPress
                   </h4>
-                  <h4 id={s.sitecore} data-weight="1">
+                  <h4 id={s.sitecore} data-weight="2">
                     Sitecore
                   </h4>
                   <h4 id={s.git} data-weight="5">
@@ -59,7 +67,7 @@ export function Home(props) {
                   <h4 id={s.html} data-weight="9">
                     HTML
                   </h4>
-                  <h4 id={s.shopify} data-weight="1">
+                  <h4 id={s.shopify} data-weight="2">
                     Shopify
                   </h4>
                 </div>
