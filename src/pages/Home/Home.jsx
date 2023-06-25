@@ -1,4 +1,3 @@
-import profilePic from "../../assets/images/Colin Divya Watson.jpg";
 import s from "./style.module.css";
 
 export function Home(props) {
@@ -6,11 +5,7 @@ export function Home(props) {
     <div className="container">
       <div className="row mt-5">
         <div className="col-md-6">
-          <img
-            className={`img-fluid ${s.profile_img}`}
-            src={profilePic}
-            alt="Colin Miller"
-          ></img>
+          <div className={s.profile_img}></div>
         </div>
 
         <div className="col-md-6">
@@ -22,56 +17,56 @@ export function Home(props) {
               features.
             </p>
             <p>I live in Minneapolis, Minnesota.</p>
-            <div className="row mt-5">
-              <h2>Skills</h2>
-              <p>
-                I'm always looking to build new skills and practice existing
-                ones. Below is a word cloud of the skills I've been developing.
-                The size of each is related to how much I've worked in each.
-              </p>
-              <div className={s.word_cloud}>
-                <div className={s.cloud_content}>
-                  <h4 id={s.bootstrap} data-weight="5">
-                    Bootstrap
-                  </h4>
-                  <h4 id={s.javascript} data-weight="8">
-                    JavaScript
-                  </h4>
-                  <h4 id={s.react} data-weight="5">
-                    React
-                  </h4>
-                  <h4 id={s.css} data-weight="9">
-                    CSS
-                  </h4>
-                  <h4 id={s.node} data-weight="3">
-                    Node
-                  </h4>
-                  <h4 id={s.aem} data-weight="5">
-                    AEM
-                  </h4>
-                  <h4 id={s.jquery} data-weight="7">
-                    jQuery
-                  </h4>
-                  <h4 id={s.wordpress} data-weight="3">
-                    WordPress
-                  </h4>
-                  <h4 id={s.sitecore} data-weight="2">
-                    Sitecore
-                  </h4>
-                  <h4 id={s.git} data-weight="5">
-                    Git
-                  </h4>
-                  <h4 id={s.firebase} data-weight="3">
-                    Firebase
-                  </h4>
-                  <h4 id={s.html} data-weight="9">
-                    HTML
-                  </h4>
-                  <h4 id={s.shopify} data-weight="2">
-                    Shopify
-                  </h4>
-                </div>
-              </div>
+          </div>
+        </div>
+        <div className="row mt-5">
+          <h2>Skills</h2>
+          <p>
+            I'm always looking to build new skills and practice existing ones.
+            Below is a word cloud of the skills I've been developing. The size
+            of each is related to how much I've worked in each.
+          </p>
+          <div className={s.word_cloud}>
+            <div className={s.cloud_content}>
+              <h4 id={s.bootstrap} data-weight="5">
+                Bootstrap
+              </h4>
+              <h4 id={s.javascript} data-weight="8">
+                JavaScript
+              </h4>
+              <h4 id={s.react} data-weight="5">
+                React
+              </h4>
+              <h4 id={s.css} data-weight="9">
+                CSS
+              </h4>
+              <h4 id={s.node} data-weight="3">
+                Node
+              </h4>
+              <h4 id={s.aem} data-weight="5">
+                AEM
+              </h4>
+              <h4 id={s.jquery} data-weight="7">
+                jQuery
+              </h4>
+              <h4 id={s.wordpress} data-weight="3">
+                WordPress
+              </h4>
+              <h4 id={s.sitecore} data-weight="2">
+                Sitecore
+              </h4>
+              <h4 id={s.git} data-weight="5">
+                Git
+              </h4>
+              <h4 id={s.firebase} data-weight="3">
+                Firebase
+              </h4>
+              <h4 id={s.html} data-weight="9">
+                HTML
+              </h4>
+              <h4 id={s.shopify} data-weight="2">
+                Shopify
+              </h4>
             </div>
           </div>
         </div>
