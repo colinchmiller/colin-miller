@@ -7,7 +7,7 @@ export function Experience(props) {
         <h1>Experience in Tech</h1>
         <div>
           <p>
-            When it comes to technology, I like to learn and follow the
+            When it comes to technology, I like to learn by doing and follow the
             opportunities that present themselves.
           </p>
         </div>
@@ -46,30 +46,42 @@ export function Experience(props) {
                 ></button>
               </div>
               <div className="modal-body">
-                <ul>
-                  <li>
-                    Crafted custom components for use on the marketing website,
-                    including rebuilding and migrating content for two website
-                    redesign and relaunches
-                  </li>
-                  <li>
-                    Integrated third party applications into the website
-                    structure
-                  </li>
-                  <li>
-                    Wrote documentation for marketers to use with the website
-                    content management system
-                  </li>
-                  <li>
-                    Led training sessions for employees after major technology
-                    changes and for onboarding
-                  </li>
-                  <li>
-                    Troubleshot website issues and assisted with user support
-                  </li>
-                  <li>Facilitated webpage authoring and publishing</li>
-                  <li>Ensured website ADA and cookie privacy standards</li>
-                </ul>{" "}
+                <div className={s.summary}>
+                  <p>
+                    Datasite is a secure virtual data room for dealmaking. I
+                    worked on the digital marketing team along with another web
+                    developer. Together, we built and maintained the marketing
+                    website. The primary purpose of the site was to capture
+                    leads to form fills and feed the sales funnel for new
+                    business.
+                  </p>
+                </div>
+                <div className={s.duties}>
+                  <ul>
+                    <li>
+                      Crafted custom components for use on the marketing
+                      website, including rebuilding and migrating content for
+                      two website redesign and relaunches
+                    </li>
+                    <li>
+                      Integrated third party applications into the website
+                      structure
+                    </li>
+                    <li>
+                      Wrote documentation for marketers to use with the website
+                      content management system
+                    </li>
+                    <li>
+                      Led training sessions for employees after major technology
+                      changes and for onboarding
+                    </li>
+                    <li>
+                      Troubleshot website issues and assisted with user support
+                    </li>
+                    <li>Facilitated webpage authoring and publishing</li>
+                    <li>Ensured website ADA and cookie privacy standards</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -108,21 +120,33 @@ export function Experience(props) {
                 ></button>
               </div>
               <div className="modal-body">
-                <ul>
-                  <li>
-                    Redesigned and restructured websites for seven fireplace
-                    brands
-                  </li>
-                  <li>Built custom landing pages for marketing campaigns</li>
-                  <li>
-                    Planned structured email campaigns, charting user action and
-                    company response
-                  </li>
-                  <li>
-                    Constructed structure and style templates for promotional
-                    emails
-                  </li>
-                </ul>
+                <div className={s.summary}>
+                  <p>
+                    Hearth and Home sells fireplaces. As a member of the digital
+                    marketing team, another developer and I were in charge of
+                    managing the marketing website. This covered 7 different
+                    fireplace brands and involved designing and editing each for
+                    new model releases, as well as making sure pricing was up to
+                    date and capturing sales leads with form fills.
+                  </p>
+                </div>
+                <div className={s.duties}>
+                  <ul>
+                    <li>
+                      Redesigned and restructured websites for seven fireplace
+                      brands
+                    </li>
+                    <li>Built custom landing pages for marketing campaigns</li>
+                    <li>
+                      Planned structured email campaigns, charting user action
+                      and company response
+                    </li>
+                    <li>
+                      Constructed structure and style templates for promotional
+                      emails
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -161,12 +185,22 @@ export function Experience(props) {
                 ></button>
               </div>
               <div class="modal-body">
-                <ul>
-                  <li>Analyzed and edited content for SEO optimization</li>
-                  <li>
-                    Collaborated with designers to spec a new website layout
-                  </li>
-                </ul>
+                <div className={s.summary}>
+                  <p>
+                    Gem Salon and Spa is a salon in the Twin cities. I acted
+                    primarily as a consultant to make sure that the website that
+                    they had was appropriately designed and constructed to
+                    target their clientele.
+                  </p>
+                </div>
+                <div className={s.duties}>
+                  <ul>
+                    <li>Analyzed and edited content for SEO optimization</li>
+                    <li>
+                      Collaborated with designers to spec a new website layout
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -204,17 +238,26 @@ export function Experience(props) {
                 ></button>
               </div>
               <div className="modal-body">
-                <ul>
-                  <li>
-                    Designed and prototyped sample websites for potential
-                    clients as sales leads
-                  </li>
-                  <li>Updated and troubleshot issues for existing clients</li>
-                  <li>
-                    Customized WordPress themes for clients with a focus on
-                    mobile responsivity
-                  </li>
-                </ul>
+                <div className={s.summary}>
+                  <p>
+                    My first developer role, I helped support existing WordPress
+                    sites while the regular web developer was on maternity
+                    leave.
+                  </p>
+                </div>
+                <div className={s.duties}>
+                  <ul>
+                    <li>
+                      Designed and prototyped sample websites for potential
+                      clients as sales leads
+                    </li>
+                    <li>Updated and troubleshot issues for existing clients</li>
+                    <li>
+                      Customized WordPress themes for clients with a focus on
+                      mobile responsivity
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -250,10 +293,20 @@ export function Experience(props) {
                   aria-label="Close"
                 ></button>
               </div>
-              <div class="modal-body">Info on Braun Intertec</div>
+              <div class="modal-body">
+                <div className={s.summary}>
+                  <p>IT help desk duties</p>
+                </div>
+                <div className={s.duties}>
+                  <ul>
+                    <li>stuff</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
         <div className="col">
           <div
             className={`card p-5 mb-2 ${s.experience_card}`}
@@ -265,6 +318,7 @@ export function Experience(props) {
             <p>February 2014 - August 2014</p>
           </div>
         </div>
+
         <div
           className="modal fade"
           id="geekSquad"
@@ -285,7 +339,19 @@ export function Experience(props) {
                   aria-label="Close"
                 ></button>
               </div>
-              <div className="modal-body">Stuff about Geek Squad</div>
+              <div className="modal-body">
+                <div className={s.summary}>
+                  <p>
+                    Gem Salon and Spa is a salon in the Twin cities. I acted
+                    primarily as a consultant to make sure that the website that
+                    they had was appropriately designed and constructed to
+                    target their clientele.
+                  </p>
+                </div>
+                <div className={s.duties}>
+                  <p>stuff</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
