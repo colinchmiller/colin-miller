@@ -10,10 +10,12 @@
   background-position: 10% 10%;
   background-repeat: no-repeat;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .word_cloud {
-  height: 500px;
+  height: 300px;
   background-color: #eef0ff;
   position: relative;
 }
