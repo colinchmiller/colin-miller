@@ -1,5 +1,5 @@
 import s from "./style.module.css";
-import dogPic from "../../assets/images/cute-watson.jpg";
+import dogPic from "../../assets/images/watson.jpg";
 import plantsPic from "../../assets/images/colin-plants.jpg";
 import writingPic from "../../assets/images/typewriter.jpg";
 
@@ -13,28 +13,53 @@ export function About(props) {
           of these include:
         </p>
       </div>
+
       <div className="row">
-        <div className="col-md-4">
-          <img className={s.img} src={plantsPic} alt="Colin with plants"></img>
-        </div>
-        <div className="col-md-8 card p-5 mb-5">
-          <h3>Plants</h3>
+        <div className="card ps-0 flex-row" style={{ width: 500 }}>
+          <img
+            src={plantsPic}
+            className={`card-img-left example-card-img-responsive ${s.img_left}`}
+            alt="Colin with plants"
+          />
+          <div className="card-body">
+            <h4 className="card-title h5 h4-sm">Plants</h4>
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
         </div>
       </div>
       <div className="row">
-        <div className="col-md-8 card p-5 mb-5">
-          <h3>Dogs</h3>
-        </div>
-        <div className="col-md-4">
-          <img className={s.img} src={dogPic} alt="watson the dog"></img>
+        <div className="card pe-0 flex-row" style={{ width: 500 }}>
+          <div className="card-body">
+            <h4 className="card-title h5 h4-sm">Dogs</h4>
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+          <img
+            src={dogPic}
+            className={`card-img-right example-card-img-responsive ${s.img_right}`}
+            alt="Colin with plants"
+          />
         </div>
       </div>
       <div className="row">
-        <div className="col-md-4">
-          <img className={s.img} src={writingPic} alt="typewriter"></img>
-        </div>
-        <div className="col-md-8 card p-5 mb-5">
-          <h3>Writing</h3>
+        <div className="card ps-0 flex-row" style={{ width: 500 }}>
+          <img
+            src={writingPic}
+            className={`card-img-left example-card-img-responsive ${s.img_left}`}
+            alt="Colin with plants"
+          />
+          <div className="card-body">
+            <h4 className="card-title h5 h4-sm">Writing</h4>
+            <p className="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
         </div>
       </div>
     </div>
