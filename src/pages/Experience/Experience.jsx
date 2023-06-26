@@ -240,9 +240,9 @@ export function Experience(props) {
               <div className="modal-body">
                 <div className={s.summary}>
                   <p>
-                    My first developer role, I helped support existing WordPress
-                    sites while the regular web developer was on maternity
-                    leave.
+                    Eleven is a small marketing and design agency. As my first
+                    developer role, I helped support existing WordPress sites
+                    while the regular web developer was on maternity leave.
                   </p>
                 </div>
                 <div className={s.duties}>
@@ -295,11 +295,25 @@ export function Experience(props) {
               </div>
               <div class="modal-body">
                 <div className={s.summary}>
-                  <p>IT help desk duties</p>
+                  <p>
+                    Braun Intertec does materials, soil, and other technical
+                    testing and engineering to support building and drilling
+                    projects. I was added to the team as a contractor to help
+                    swell the ranks of IT as the company expanded and added new
+                    personnel in other areas.
+                  </p>
                 </div>
                 <div className={s.duties}>
                   <ul>
-                    <li>stuff</li>
+                    <li>Computer and phone troubleshooting</li>
+                    <li>
+                      New technology research for compatibility with our
+                      company's systems and needs
+                    </li>
+                    <li>
+                      Part of a phone upgrade project where all phones were
+                      transitioned to VoIP
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -342,14 +356,30 @@ export function Experience(props) {
               <div className="modal-body">
                 <div className={s.summary}>
                   <p>
-                    Gem Salon and Spa is a salon in the Twin cities. I acted
-                    primarily as a consultant to make sure that the website that
-                    they had was appropriately designed and constructed to
-                    target their clientele.
+                    Geek Squad is the technology support wing of Best Buy
+                    stores. As a consultation agent, I was the first person
+                    custoemrs interacted with when they came to us with
+                    technical issues. It was my first step into a career in
+                    technology and exposed me to the great variety of
+                    technologies while also teaching me how to think about and
+                    communicate with people of various skills with tech.
                   </p>
                 </div>
                 <div className={s.duties}>
-                  <p>stuff</p>
+                  <ul>
+                    <li>
+                      Diagnose and recommend repair services for computers,
+                      phones, and other technology
+                    </li>
+                    <li>
+                      Assist customer service with returns and exhanges to
+                      ensure products were functioning/not functioning
+                    </li>
+                    <li>
+                      Assisted sales team with additional technical information
+                      on computers and phones
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
