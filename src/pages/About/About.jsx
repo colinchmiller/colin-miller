@@ -6,7 +6,7 @@ import writingPic from "../../assets/images/typewriter.jpg";
 export function About(props) {
   return (
     <div className="container">
-      <div className="row mt-5">
+      <div className="row mt-5 mb-3">
         <h1>My Interests</h1>
         <p>
           I'm not just a web developer. I've got other interests as well. Some
@@ -20,7 +20,7 @@ export function About(props) {
           className={`.img-fluid max-width: 100% ${s.img_top}`}
           alt="Colin with plants"
         />
-        <div className="card ps-0 flex-row mb-3 mt-3">
+        <div className="card ps-0 flex-row mb-3">
           <img
             src={plantsPic}
             className={`card-img-left example-card-img-responsive ${s.img_left}`}
