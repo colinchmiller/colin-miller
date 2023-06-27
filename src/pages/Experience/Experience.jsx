@@ -160,7 +160,7 @@ export function Experience(props) {
             data-bs-toggle="modal"
             data-bs-target="#gem"
           >
-            <h3>Gem Salon and Spa</h3>
+            <h3>Gem Salon</h3>
             <h4>Content Management Specialist</h4>
             <p>December 2017 - June 2018</p>
           </div>

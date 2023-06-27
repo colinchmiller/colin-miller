@@ -16,7 +16,7 @@ export function Home(props) {
         </div>
 
         <div className="row mt-3">
-          <div className="col-md-4 align-self-center">
+          <div className="col-lg-4 align-self-center">
             <div className="p-5">
               <h2>Skills</h2>
               <p>
@@ -27,7 +27,7 @@ export function Home(props) {
               </p>
             </div>
           </div>
-          <div className="col-md-8">
+          <div className="col-lg-8">
             <div className="p5">
               <div className={s.word_cloud}>
                 <div className={s.cloud_content}>
