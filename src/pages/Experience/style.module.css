@@ -8,5 +8,10 @@
 }
 .summary {
 }
-.duties {
+.duties li {
+  list-style-type: none;
+}
+.duties li:before {
+  content: "\2713\0020";
+  color: #2a5ebf;
 }

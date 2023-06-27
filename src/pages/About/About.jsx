@@ -15,7 +15,7 @@ export function About(props) {
       </div>
 
       <div className="row">
-        <div className="card ps-0 flex-row mb-3">
+        <div className="card ps-0 flex-row mb-3 mt-3">
           <img
             src={plantsPic}
             className={`card-img-left example-card-img-responsive ${s.img_left}`}
@@ -23,7 +23,13 @@ export function About(props) {
           />
           <div className="card-body">
             <h4 className="card-title h5 h4-sm">Plants</h4>
-            <p className="card-text">Houseplants and garden plants...</p>
+            <p className="card-text">
+              I love to grow plants, both indoors and outdoors. Sometimes they
+              even combine. Every year I grow at least hot peppers, cilantro,
+              and basil. Indoors I like to have at least one plant in every
+              room. I had to start scaling the number back once I got to over 40
+              plants.
+            </p>
           </div>
         </div>
       </div>
@@ -32,7 +38,11 @@ export function About(props) {
           <div className="card-body">
             <h4 className="card-title h5 h4-sm">Dogs</h4>
             <p className="card-text">
-              Watson the puppy. A rescue from Kentucky, he is a dog of comfort.
+              I love dogs. I have a young dog named Watson. He's a rescue from
+              Kentucky. He's a dog of comfort, that enjoys sleeping in and
+              finding the softest spots to get comfortable. He's very social
+              with dogs but not so much with people. I like the fact that dogs
+              have as many different personalities as people.
             </p>
           </div>
           <img
@@ -52,8 +62,11 @@ export function About(props) {
           <div className="card-body">
             <h4 className="card-title h5 h4-sm">Writing</h4>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              I've liked writing since I was a kid coming up with my own short
+              stories based on dreams that I've had. Though I had a lull through
+              my college years, I've gotten back into it since then. I'm
+              currently working on a collection of short stories and a
+              children's book.
             </p>
           </div>
         </div>
