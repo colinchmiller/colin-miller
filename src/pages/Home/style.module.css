@@ -1,12 +1,12 @@
 .profile_img {
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   background-image: url("../../assets/images/colin-profile.jpg");
-  background-size: 300px;
+  background-size: 350px;
   background-position: 10% 10%;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -16,8 +16,9 @@
 
 .word_cloud {
   height: 300px;
-  background-color: #eef0ff;
+  background-color: #cfe2ff;
   position: relative;
+  margin-bottom: 20px;
 }
 .cloud_content {
   display: grid;
@@ -86,10 +87,10 @@
   left: 0;
   right: 0;
   grid-template:
-    ". Node Html Javascript Javascript  . "
+    ". Node Html Javascript Javascript Shopify "
     "Sitecore Css Html Git React Jquery "
     "Sitecore Bootstrap Bootstrap Firebase React Aem  "
-    ". . Shopify . Wordpress Aem ";
+    ". . Target . Wordpress Aem ";
 }
 
 #bootstrap {
@@ -130,4 +131,7 @@
 }
 #shopify {
   grid-area: Shopify;
+}
+#target {
+  grid-area: Target;
 }

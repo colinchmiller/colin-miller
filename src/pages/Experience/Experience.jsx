@@ -13,7 +13,7 @@ export function Experience(props) {
         </div>
       </div>
 
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-3">
         <div className="col">
           <div
             className={`card p-5 mb-2 ${s.experience_card}`}
@@ -57,6 +57,7 @@ export function Experience(props) {
                   </p>
                 </div>
                 <div className={s.duties}>
+                  <p>Duties included:</p>
                   <ul>
                     <li>
                       Crafted custom components for use on the marketing
@@ -131,6 +132,7 @@ export function Experience(props) {
                   </p>
                 </div>
                 <div className={s.duties}>
+                  <p>Duties included:</p>
                   <ul>
                     <li>
                       Redesigned and restructured websites for seven fireplace
@@ -184,7 +186,7 @@ export function Experience(props) {
                   aria-label="Close"
                 ></button>
               </div>
-              <div class="modal-body">
+              <div className="modal-body">
                 <div className={s.summary}>
                   <p>
                     Gem Salon and Spa is a salon in the Twin cities. I acted
@@ -194,6 +196,7 @@ export function Experience(props) {
                   </p>
                 </div>
                 <div className={s.duties}>
+                  <p>Duties included:</p>
                   <ul>
                     <li>Analyzed and edited content for SEO optimization</li>
                     <li>
@@ -246,6 +249,7 @@ export function Experience(props) {
                   </p>
                 </div>
                 <div className={s.duties}>
+                  <p>Duties included:</p>
                   <ul>
                     <li>
                       Designed and prototyped sample websites for potential
@@ -293,7 +297,7 @@ export function Experience(props) {
                   aria-label="Close"
                 ></button>
               </div>
-              <div class="modal-body">
+              <div className="modal-body">
                 <div className={s.summary}>
                   <p>
                     Braun Intertec does materials, soil, and other technical
@@ -304,6 +308,7 @@ export function Experience(props) {
                   </p>
                 </div>
                 <div className={s.duties}>
+                  <p>Duties included:</p>
                   <ul>
                     <li>Computer and phone troubleshooting</li>
                     <li>
@@ -366,6 +371,7 @@ export function Experience(props) {
                   </p>
                 </div>
                 <div className={s.duties}>
+                  <p>Duties included:</p>
                   <ul>
                     <li>
                       Diagnose and recommend repair services for computers,

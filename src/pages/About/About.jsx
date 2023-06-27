@@ -15,7 +15,7 @@ export function About(props) {
       </div>
 
       <div className="row">
-        <div className="card ps-0 flex-row" style={{ width: 500 }}>
+        <div className="card ps-0 flex-row mb-3">
           <img
             src={plantsPic}
             className={`card-img-left example-card-img-responsive ${s.img_left}`}
@@ -23,20 +23,16 @@ export function About(props) {
           />
           <div className="card-body">
             <h4 className="card-title h5 h4-sm">Plants</h4>
-            <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <p className="card-text">Houseplants and garden plants...</p>
           </div>
         </div>
       </div>
       <div className="row">
-        <div className="card pe-0 flex-row" style={{ width: 500 }}>
+        <div className="card pe-0 flex-row mb-3">
           <div className="card-body">
             <h4 className="card-title h5 h4-sm">Dogs</h4>
             <p className="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Watson the puppy. A rescue from Kentucky, he is a dog of comfort.
             </p>
           </div>
           <img
@@ -47,7 +43,7 @@ export function About(props) {
         </div>
       </div>
       <div className="row">
-        <div className="card ps-0 flex-row" style={{ width: 500 }}>
+        <div className="card ps-0 flex-row mb-3">
           <img
             src={writingPic}
             className={`card-img-left example-card-img-responsive ${s.img_left}`}
