@@ -33,7 +33,7 @@ export function Experience(props) {
           aria-hidden="true"
         >
           <div className="modal-dialog">
-            <div className="modal-content">
+            <div className="modal-content p-3">
               <div className="modal-header">
                 <h2 className="modal-title fs-5" id="datasiteLabel">
                   Datasite
@@ -108,7 +108,7 @@ export function Experience(props) {
           aria-hidden="true"
         >
           <div className="modal-dialog">
-            <div className="modal-content">
+            <div className="modal-content p-3">
               <div className="modal-header">
                 <h2 className="modal-title fs-5" id="hearthAndHomeLabel">
                   Hearth and Home
@@ -174,7 +174,7 @@ export function Experience(props) {
           aria-hidden="true"
         >
           <div className="modal-dialog">
-            <div className="modal-content">
+            <div className="modal-content p-3">
               <div className="modal-header">
                 <h2 className="modal-title fs-5" id="gemLabel">
                   Gem Salon and Spa
@@ -228,7 +228,7 @@ export function Experience(props) {
           aria-hidden="true"
         >
           <div className="modal-dialog">
-            <div className="modal-content">
+            <div className="modal-content p-3">
               <div className="modal-header">
                 <h2 className="modal-title fs-5" id="elevenLabel">
                   Eleven Design Co
@@ -285,7 +285,7 @@ export function Experience(props) {
           aria-hidden="true"
         >
           <div className="modal-dialog">
-            <div className="modal-content">
+            <div className="modal-content p-3">
               <div className="modal-header">
                 <h2 className="modal-title fs-5" id="braunLabel">
                   Braun Intertec
@@ -346,7 +346,7 @@ export function Experience(props) {
           aria-hidden="true"
         >
           <div className="modal-dialog">
-            <div className="modal-content">
+            <div className="modal-content p-3">
               <div className="modal-header">
                 <h2 className="modal-title fs-5" id="geekSquadLabel">
                   Geek Squad
