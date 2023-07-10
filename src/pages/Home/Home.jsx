@@ -4,7 +4,7 @@ export function Home(props) {
   return (
     <div className="container">
       <div className="row mt-2">
-        <div className={s.profile_img}></div>
+        <div className={`${s.fade_in} ${s.profile_img}`}></div>
 
         <div className="p-3 text-center">
           <h2>Hello!</h2>
@@ -29,7 +29,7 @@ export function Home(props) {
           </div>
           <div className="col-lg-8">
             <div className="p5">
-              <div className={s.word_cloud}>
+              <div className={` ${s.word_cloud} ${s.fade_in}`}>
                 <div className={s.cloud_content}>
                   <h4 id={s.bootstrap} data-weight="5">
                     Bootstrap
