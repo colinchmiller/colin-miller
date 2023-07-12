@@ -16,7 +16,7 @@ export function Experience(props) {
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-3">
         <div className="col">
           <div
-            className={`card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#datasite"
           >
@@ -90,7 +90,7 @@ export function Experience(props) {
 
         <div className="col">
           <div
-            className={`card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#hearthAndHome"
           >
@@ -156,7 +156,7 @@ export function Experience(props) {
 
         <div className="col">
           <div
-            className={`card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#gem"
           >
@@ -210,7 +210,7 @@ export function Experience(props) {
         </div>
         <div className="col">
           <div
-            className={`card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#eleven"
           >
@@ -268,7 +268,7 @@ export function Experience(props) {
         </div>
         <div className="col">
           <div
-            className={`card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#braun"
           >
@@ -328,7 +328,7 @@ export function Experience(props) {
 
         <div className="col">
           <div
-            className={`card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#geekSquad"
           >
