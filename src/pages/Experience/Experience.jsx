@@ -90,7 +90,7 @@ export function Experience(props) {
 
         <div className="col">
           <div
-            className={`${s.fade_in} card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_1} card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#hearthAndHome"
           >
@@ -156,7 +156,7 @@ export function Experience(props) {
 
         <div className="col">
           <div
-            className={`${s.fade_in} card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_2} card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#gem"
           >
@@ -210,7 +210,7 @@ export function Experience(props) {
         </div>
         <div className="col">
           <div
-            className={`${s.fade_in} card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_3} card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#eleven"
           >
@@ -268,7 +268,7 @@ export function Experience(props) {
         </div>
         <div className="col">
           <div
-            className={`${s.fade_in} card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_4} card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#braun"
           >
@@ -328,7 +328,7 @@ export function Experience(props) {
 
         <div className="col">
           <div
-            className={`${s.fade_in} card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_5} card p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#geekSquad"
           >
