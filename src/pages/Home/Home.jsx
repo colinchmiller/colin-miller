@@ -2,18 +2,9 @@ import s from "./style.module.css";
 
 export function Home(props) {
   return (
-    <div className="container">
+    <div className={`container ${s.background}`}>
       <div className="row mt-2">
         <div className={`${s.fade_in} ${s.profile_img}`}></div>
-
-        <div className="p-3 text-center">
-          <h2>Hello!</h2>
-          <p>
-            My name is Colin Miller. I'm a web developer, and this is a site
-            that I built to practice my skills and experiment with new features.
-          </p>
-          <p>I live in Minneapolis, Minnesota.</p>
-        </div>
 
         <div className="row mt-3">
           <div className="col-lg-4 align-self-center">

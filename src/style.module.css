@@ -1,5 +1,6 @@
 .app {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #fff;
+  font-family: Poppins, Open-sans, sans-serif;
+  color: #fff;
+  background-image: linear-gradient(to top right, #180f40, #a6e1ff);
   height: 100%;
 }
