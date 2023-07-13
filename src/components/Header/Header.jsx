@@ -6,7 +6,7 @@ export function Header(props) {
     <header className={s.header}>
       <nav className={`navbar navbar-expand-sm bg-primary-subtle`}>
         <div className="container-fluid">
-          <Link className={`navbar-brand`} to="/">
+          <Link className={`navbar-brand`} to="/intro">
             Colin Miller
           </Link>
           <ul className={`navbar-nav me-auto`}>

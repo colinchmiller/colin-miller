@@ -1,6 +1,6 @@
 import s from "./style.module.css";
 
-export function Home(props) {
+export function Intro(props) {
   return (
     <div className={`container ${s.background}`}>
       <div className="row mt-2">
