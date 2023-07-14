@@ -3,14 +3,28 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export function Header() {
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(true);
 
   function toggleHeader() {
-    console.log("click header");
-    setIsActive(true);
+    setIsActive(!isActive);
   }
   return (
-    <header onClick={toggleHeader} className={s.header}></header>
+    <header
+      onClick={toggleHeader}
+      className={`${s.header} ${isActive ? s.active : ""}`}
+    >
+      <ul>
+        <li>
+          <Link to="/intro">Intro</Link>
+        </li>
+        <li>
+          <Link to="/experience">Experience</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+      </ul>
+    </header>
     // <header className={s.header}>
     //   <nav className={`navbar navbar-expand-sm bg-primary-subtle`}>
     //     <div className="container-fluid">

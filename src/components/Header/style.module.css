@@ -8,3 +8,27 @@
   left: 40px;
   cursor: pointer;
 }
+
+.header.active {
+  height: auto;
+  width: auto;
+  border-radius: 0;
+  padding: 20px;
+}
+
+.header ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  display: none;
+}
+
+.header.active ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.header a {
+  text-decoration: none;
+  color: #fff;
+}
