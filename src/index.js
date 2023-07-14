@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import App from "./App";
+import { Splash } from "./pages/Splash/Splash";
 import { About } from "./pages/About/About";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Experience } from "./pages/Experience/Experience";
@@ -14,6 +15,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
+          <Route path="/" element={<Splash />} />
           <Route path="/intro" element={<Intro />} />
           <Route path="/about" element={<About />} />
           <Route path="/experience" element={<Experience />} />
