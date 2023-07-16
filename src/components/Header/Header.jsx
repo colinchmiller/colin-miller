@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export function Header() {
-  const [isActive, setIsActive] = useState(true);
+  const [isActive, setIsActive] = useState(false);
 
   function toggleHeader() {
     setIsActive(!isActive);
@@ -13,6 +13,11 @@ export function Header() {
       onClick={toggleHeader}
       className={`${s.header} ${isActive ? s.active : ""}`}
     >
+      <div className={s.button}>
+        <div className={s.one}></div>
+        <div className={s.two}></div>
+        <div className={s.three}></div>
+      </div>
       <ul>
         <li>
           <Link to="/intro">Intro</Link>
@@ -25,26 +30,5 @@ export function Header() {
         </li>
       </ul>
     </header>
-    // <header className={s.header}>
-    //   <nav className={`navbar navbar-expand-sm bg-primary-subtle`}>
-    //     <div className="container-fluid">
-    //       <Link className={`navbar-brand`} to="/intro">
-    //         Colin Miller
-    //       </Link>
-    //       <ul className={`navbar-nav me-auto`}>
-    //         <li className={`nav-item`}>
-    //           <Link className={`nav-link`} to="/experience">
-    //             Experience
-    //           </Link>
-    //         </li>
-    //         <li className={`nav-item`}>
-    //           <Link className={`nav-link`} to="/about">
-    //             About me
-    //           </Link>
-    //         </li>
-    //       </ul>
-    //     </div>
-    //   </nav>
-    // </header>
   );
 }
