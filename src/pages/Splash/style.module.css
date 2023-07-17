@@ -6,3 +6,34 @@
   min-height: 100vh;
   text-align: left;
 }
+
+.splash h1,
+.splash h2,
+.splash h3 {
+  opacity: 0;
+  animation: fadeIn 1s, slideUp 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.splash h2 {
+  animation-delay: 0.2s;
+}
+.splash h3 {
+  animation-delay: 0.3s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

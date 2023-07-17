@@ -10,6 +10,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
 }
 
 .header .button {
@@ -37,9 +39,9 @@
 }
 
 .header.active {
-  height: auto;
-  width: auto;
-  border-radius: 10%;
+  height: 150px;
+  width: 150px;
+  border-radius: 5%;
   padding: 20px;
 }
 
