@@ -55,7 +55,12 @@
   margin: 0;
   display: none;
 }
-
+.header ul li {
+  margin-top: 10px;
+}
+.header ul li:last-child {
+  margin-bottom: 10px;
+}
 .header.active .button {
   display: none;
 }
@@ -68,12 +73,29 @@
   display: flex;
   flex-direction: column;
 }
-
+.header.active ul li {
+  transform: scaleY(0);
+  animation: expandUp 0.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
 .header a {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
   text-decoration: none;
   color: #fff;
+  border-bottom: 3px solid #fff;
 }
 
 .header a:hover {
   color: #f541ef;
+}
+
+@keyframes expandUp {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
 }
