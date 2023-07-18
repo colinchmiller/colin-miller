@@ -31,6 +31,7 @@
 }
 .word_cloud {
   height: 300px;
+  border-radius: 10px;
   background-color: #bdbdbd;
   position: relative;
   margin-bottom: 20px;
@@ -61,6 +62,7 @@
   font-size: 1.5rem;
   padding: 0.125rem 0.25rem;
   margin: 0;
+  cursor: pointer;
 }
 .cloud_content h4[data-weight="1"] {
   --size: 1;
