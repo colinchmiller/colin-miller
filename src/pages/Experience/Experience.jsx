@@ -3,26 +3,19 @@ import s from "./style.module.css";
 export function Experience(props) {
   return (
     <div className="container">
-      <div className="row">
-        <h1>Experience in Tech</h1>
-        <div>
-          <p>
-            When it comes to technology, I like to learn by doing and follow the
-            opportunities that present themselves.
-          </p>
-        </div>
+      <div className={`${s.experience_title}`}>
+        <h1>Technical Experience</h1>
       </div>
 
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-3">
         <div className="col">
           <div
-            className={`${s.fade_in} card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} p-5 mb-5 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#datasite"
           >
             <h3>Datasite</h3>
             <h4>Web Developer</h4>
-            <p>April 2019 - March 2023</p>
           </div>
         </div>
         <div
@@ -35,7 +28,7 @@ export function Experience(props) {
           <div className="modal-dialog">
             <div className="modal-content p-3">
               <div className="modal-header">
-                <h2 className="modal-title fs-5" id="datasiteLabel">
+                <h2 className={` ${s.modal_title} fs-5`} id="datasiteLabel">
                   Datasite
                 </h2>
                 <button
@@ -47,40 +40,22 @@ export function Experience(props) {
               </div>
               <div className="modal-body">
                 <div className={s.summary}>
+                  <p>April 2019 - March 2023</p>
                   <p>
                     Datasite is a secure virtual data room for dealmaking. I
-                    worked on the digital marketing team along with another web
-                    developer. Together, we built and maintained the marketing
-                    website. The primary purpose of the site was to capture
-                    leads to form fills and feed the sales funnel for new
-                    business.
+                    worked on the digital marketing team.
                   </p>
                 </div>
                 <div className={s.duties}>
-                  <p>Duties included:</p>
+                  <p>Responsibilities:</p>
                   <ul>
                     <li>
-                      Crafted custom components for use on the marketing
-                      website, including rebuilding and migrating content for
-                      two website redesign and relaunches
+                      Crafted custom components for use on the website,
+                      including rebuilding and migrating content for website
+                      redesign and relaunches
                     </li>
-                    <li>
-                      Integrated third party applications into the website
-                      structure
-                    </li>
-                    <li>
-                      Wrote documentation for marketers to use with the website
-                      content management system
-                    </li>
-                    <li>
-                      Led training sessions for employees after major technology
-                      changes and for onboarding
-                    </li>
-                    <li>
-                      Troubleshot website issues and assisted with user support
-                    </li>
-                    <li>Facilitated webpage authoring and publishing</li>
-                    <li>Ensured website ADA and cookie privacy standards</li>
+                    <li>Integrated third party applications</li>
+                    <li>Wrote documentation for application use</li>
                   </ul>
                 </div>
               </div>
@@ -90,13 +65,12 @@ export function Experience(props) {
 
         <div className="col">
           <div
-            className={`${s.fade_in} ${s.delay_1} card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_1} p-5 mb-5 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#hearthAndHome"
           >
             <h3>Hearth and Home</h3>
             <h4>Web Developer</h4>
-            <p>March 2018 - December 2018</p>
           </div>
         </div>
 
@@ -110,7 +84,10 @@ export function Experience(props) {
           <div className="modal-dialog">
             <div className="modal-content p-3">
               <div className="modal-header">
-                <h2 className="modal-title fs-5" id="hearthAndHomeLabel">
+                <h2
+                  className={` ${s.modal_title} fs-5`}
+                  id="hearthAndHomeLabel"
+                >
                   Hearth and Home
                 </h2>
                 <button
@@ -122,27 +99,21 @@ export function Experience(props) {
               </div>
               <div className="modal-body">
                 <div className={s.summary}>
+                  <p>March 2018 - December 2018</p>
                   <p>
                     Hearth and Home sells fireplaces. As a member of the digital
-                    marketing team, another developer and I were in charge of
-                    managing the marketing website. This covered 7 different
-                    fireplace brands and involved designing and editing each for
-                    new model releases, as well as making sure pricing was up to
-                    date and capturing sales leads with form fills.
+                    marketing team, I worked on the marketing website covering 7
+                    different fieplace brands.
                   </p>
                 </div>
                 <div className={s.duties}>
-                  <p>Duties included:</p>
+                  <p>Responsibilites:</p>
                   <ul>
                     <li>
                       Redesigned and restructured websites for seven fireplace
                       brands
                     </li>
                     <li>Built custom landing pages for marketing campaigns</li>
-                    <li>
-                      Planned structured email campaigns, charting user action
-                      and company response
-                    </li>
                     <li>
                       Constructed structure and style templates for promotional
                       emails
@@ -156,13 +127,12 @@ export function Experience(props) {
 
         <div className="col">
           <div
-            className={`${s.fade_in} ${s.delay_2} card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_2} p-5 mb-5 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#gem"
           >
             <h3>Gem Salon</h3>
-            <h4>Content Management Specialist</h4>
-            <p>December 2017 - June 2018</p>
+            <h4>Content Specialist</h4>
           </div>
         </div>
 
@@ -176,7 +146,7 @@ export function Experience(props) {
           <div className="modal-dialog">
             <div className="modal-content p-3">
               <div className="modal-header">
-                <h2 className="modal-title fs-5" id="gemLabel">
+                <h2 className={` ${s.modal_title} fs-5`} id="gemLabel">
                   Gem Salon and Spa
                 </h2>
                 <button
@@ -188,15 +158,15 @@ export function Experience(props) {
               </div>
               <div className="modal-body">
                 <div className={s.summary}>
+                  <p>December 2017 - June 2018</p>
                   <p>
-                    Gem Salon and Spa is a salon in the Twin cities. I acted
-                    primarily as a consultant to make sure that the website that
-                    they had was appropriately designed and constructed to
-                    target their clientele.
+                    Gem Salon and Spa is a salon in the Twin Cities. I acted as
+                    a consultant to make sure that the website was appropriately
+                    designed and constructed to target their clientele.
                   </p>
                 </div>
                 <div className={s.duties}>
-                  <p>Duties included:</p>
+                  <p>Responsibilities:</p>
                   <ul>
                     <li>Analyzed and edited content for SEO optimization</li>
                     <li>
@@ -210,13 +180,12 @@ export function Experience(props) {
         </div>
         <div className="col">
           <div
-            className={`${s.fade_in} ${s.delay_3} card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_3} p-5 mb-5 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#eleven"
           >
             <h3>Eleven Design Co</h3>
             <h4>Web Developer Contractor</h4>
-            <p>April 2016 - July 2016</p>
           </div>
         </div>
 
@@ -230,7 +199,7 @@ export function Experience(props) {
           <div className="modal-dialog">
             <div className="modal-content p-3">
               <div className="modal-header">
-                <h2 className="modal-title fs-5" id="elevenLabel">
+                <h2 className={` ${s.modal_title} fs-5`} id="elevenLabel">
                   Eleven Design Co
                 </h2>
                 <button
@@ -242,23 +211,24 @@ export function Experience(props) {
               </div>
               <div className="modal-body">
                 <div className={s.summary}>
+                  <p>April 2016 - July 2016</p>
                   <p>
-                    Eleven is a small marketing and design agency. As my first
-                    developer role, I helped support existing WordPress sites
-                    while the regular web developer was on maternity leave.
+                    Eleven is a marketing and design agency. I helped support
+                    existing WordPress sites and add new styling and
+                    functionality.
                   </p>
                 </div>
                 <div className={s.duties}>
-                  <p>Duties included:</p>
+                  <p>Responsibilities:</p>
                   <ul>
                     <li>
                       Designed and prototyped sample websites for potential
                       clients as sales leads
                     </li>
-                    <li>Updated and troubleshot issues for existing clients</li>
+                    <li>Corrected website issues for existing clients</li>
                     <li>
-                      Customized WordPress themes for clients with a focus on
-                      mobile responsivity
+                      Customized WordPress themes with a focus on mobile
+                      responsivity
                     </li>
                   </ul>
                 </div>
@@ -268,13 +238,12 @@ export function Experience(props) {
         </div>
         <div className="col">
           <div
-            className={`${s.fade_in} ${s.delay_4} card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_4} p-5 mb-5 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#braun"
           >
             <h3>Braun Intertec</h3>
             <h4>IT Help Desk Contractor</h4>
-            <p>November 2014 - May 2015</p>
           </div>
         </div>
         <div
@@ -287,7 +256,7 @@ export function Experience(props) {
           <div className="modal-dialog">
             <div className="modal-content p-3">
               <div className="modal-header">
-                <h2 className="modal-title fs-5" id="braunLabel">
+                <h2 className={` ${s.modal_title} fs-5`} id="braunLabel">
                   Braun Intertec
                 </h2>
                 <button
@@ -299,25 +268,21 @@ export function Experience(props) {
               </div>
               <div className="modal-body">
                 <div className={s.summary}>
+                  <p>November 2014 - May 2015</p>
                   <p>
                     Braun Intertec does materials, soil, and other technical
                     testing and engineering to support building and drilling
-                    projects. I was added to the team as a contractor to help
-                    swell the ranks of IT as the company expanded and added new
-                    personnel in other areas.
+                    projects. I worked the helpdesk, troubleshooting phone and
+                    computer issues.
                   </p>
                 </div>
                 <div className={s.duties}>
-                  <p>Duties included:</p>
+                  <p>Responsibilities:</p>
                   <ul>
                     <li>Computer and phone troubleshooting</li>
+                    <li>Researched new technology to add to our company</li>
                     <li>
-                      New technology research for compatibility with our
-                      company's systems and needs
-                    </li>
-                    <li>
-                      Part of a phone upgrade project where all phones were
-                      transitioned to VoIP
+                      Transitioned all desk phones to VoIP, upgraded cell phones
                     </li>
                   </ul>
                 </div>
@@ -328,13 +293,12 @@ export function Experience(props) {
 
         <div className="col">
           <div
-            className={`${s.fade_in} ${s.delay_5} card p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_5} p-5 mb-2 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#geekSquad"
           >
             <h3>Geek Squad</h3>
             <h4>Consultation Agent</h4>
-            <p>February 2014 - August 2014</p>
           </div>
         </div>
 
@@ -348,7 +312,7 @@ export function Experience(props) {
           <div className="modal-dialog">
             <div className="modal-content p-3">
               <div className="modal-header">
-                <h2 className="modal-title fs-5" id="geekSquadLabel">
+                <h2 className={` ${s.modal_title} fs-5`} id="geekSquadLabel">
                   Geek Squad
                 </h2>
                 <button
@@ -360,25 +324,22 @@ export function Experience(props) {
               </div>
               <div className="modal-body">
                 <div className={s.summary}>
+                  <p>February 2014 - August 2014</p>
                   <p>
                     Geek Squad is the technology support wing of Best Buy
-                    stores. As a consultation agent, I was the first person
-                    custoemrs interacted with when they came to us with
-                    technical issues. It was my first step into a career in
-                    technology and exposed me to the great variety of
-                    technologies while also teaching me how to think about and
-                    communicate with people of various skills with tech.
+                    stores. I was the first person customers interacted with
+                    when they came to us with technical issues.
                   </p>
                 </div>
                 <div className={s.duties}>
-                  <p>Duties included:</p>
+                  <p>Responsibilities::</p>
                   <ul>
                     <li>
                       Diagnose and recommend repair services for computers,
                       phones, and other technology
                     </li>
                     <li>
-                      Assist customer service with returns and exhanges to
+                      Helped customer service with returns and exhanges to
                       ensure products were functioning/not functioning
                     </li>
                     <li>
