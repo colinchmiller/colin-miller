@@ -36,6 +36,10 @@
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
 }
+.splash .button a {
+  text-decoration: none;
+  color: #fff;
+}
 .splash .button .one {
   width: 0;
   height: 5px !important;
@@ -46,7 +50,7 @@
   margin-bottom: 5px;
   animation: skrinkLine 0.5s;
 }
-.splash .button:hover {
+.splash .button:hover a {
   color: #f541ef;
 }
 .splash .button:hover .one {

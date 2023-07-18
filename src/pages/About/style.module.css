@@ -28,3 +28,177 @@
     padding: 0;
   }
 }
+.background {
+  margin-top: 0;
+}
+
+.profile_img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-image: url("../../assets/images/colin-profile.jpg");
+  background-size: 350px;
+  background-position: 10% 10%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.word_cloud {
+  height: 300px;
+  background-color: #cfe2ff;
+  position: relative;
+  margin-bottom: 20px;
+}
+.cloud_content {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.cloud_content :nth-child(3n) {
+  writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: vertical-lr;
+}
+.cloud_content :nth-child(2n) {
+  color: #0090c1;
+}
+.cloud_content :nth-child(2n + 1) {
+  color: #ddbe34;
+}
+.cloud_content :nth-child(3n - 1) {
+  color: #a33;
+}
+.cloud_content h4 {
+  font-size: 1.5rem;
+  padding: 0.125rem 0.25rem;
+  margin: 0;
+}
+.cloud_content h4[data-weight="1"] {
+  --size: 1;
+}
+.cloud_content h4[data-weight="2"] {
+  --size: 2;
+}
+.cloud_content h4[data-weight="3"] {
+  --size: 3;
+}
+.cloud_content h4[data-weight="4"] {
+  --size: 4;
+}
+.cloud_content h4[data-weight="5"] {
+  --size: 5;
+}
+.cloud_content h4[data-weight="6"] {
+  --size: 6;
+}
+.cloud_content h4[data-weight="7"] {
+  --size: 7;
+}
+.cloud_content h4[data-weight="8"] {
+  --size: 8;
+}
+.cloud_content h4[data-weight="9"] {
+  --size: 9;
+}
+
+.cloud_content h4 {
+  --size: 4;
+  font-size: calc(var(--size) * 0.25rem + 0.5rem);
+  opacity: calc((15 - (9 - var(--size))) / 15);
+}
+
+.cloud_content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  grid-template:
+    ". Node Html Javascript Javascript Shopify "
+    "Sitecore Css Html Git React Jquery "
+    "Sitecore Bootstrap Bootstrap Firebase React Aem  "
+    ". . Target . Wordpress Aem ";
+}
+
+#bootstrap {
+  grid-area: Bootstrap;
+}
+#javascript {
+  grid-area: Javascript;
+}
+#react {
+  grid-area: React;
+}
+#css {
+  grid-area: Css;
+}
+#node {
+  grid-area: Node;
+}
+#aem {
+  grid-area: Aem;
+}
+#jquery {
+  grid-area: Jquery;
+}
+#wordpress {
+  grid-area: Wordpress;
+}
+#sitecore {
+  grid-area: Sitecore;
+}
+#git {
+  grid-area: Git;
+}
+#firebase {
+  grid-area: Firebase;
+}
+#html {
+  grid-area: Html;
+}
+#shopify {
+  grid-area: Shopify;
+}
+#target {
+  grid-area: Target;
+}
+
+@media (max-width: 768px) {
+  .word_cloud {
+    background-color: #fff;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cloud_content h4 {
+    --size: 1;
+    font-size: calc(var(--size) * 0.2rem);
+    opacity: calc((15 - (9 - var(--size))) / 15);
+  }
+}
+
+@media (max-width: 390px) {
+  .word_cloud {
+    transform: rotate(-90deg);
+  }
+}
+
+.fade_in {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

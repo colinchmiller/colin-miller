@@ -7,8 +7,10 @@ export function Splash() {
       <h2>Web Developer</h2>
       <h3>Minneapolis, Minnesota</h3>
       <div className={s.button}>
-        Contact Me
-        <div className={s.one}></div>
+        <a href="mailto:colinchmiller@gmail.com">
+          Contact Me
+          <div className={s.one}></div>
+        </a>
       </div>
     </div>
   );

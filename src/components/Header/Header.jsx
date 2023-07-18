@@ -20,13 +20,13 @@ export function Header() {
       </div>
       <ul>
         <li>
-          <Link to="/intro">Intro</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <Link to="/experience">Experience</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about">About Me</Link>
         </li>
       </ul>
     </header>
