@@ -6,7 +6,7 @@ import writingPic from "../../assets/images/typewriter.jpg";
 export function About(props) {
   return (
     <div className="container">
-      <div className="row mt-5 mb-3">
+      <div className="row mb-3">
         <h1>My Interests</h1>
         <p>
           I'm not just a web developer. I've got other interests as well. Some

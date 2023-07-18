@@ -14,12 +14,45 @@
   animation: fadeIn 1s, slideUp 0.5s;
   animation-fill-mode: forwards;
 }
-
+.splash h1 {
+  font-size: 4em;
+}
 .splash h2 {
   animation-delay: 0.2s;
 }
 .splash h3 {
   animation-delay: 0.3s;
+}
+.splash .button {
+  background-color: #bdbdbd;
+  padding: 12px 25px 2px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 100px;
+  opacity: 0;
+  animation: fadeIn 1s, slideUp 0.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.4s;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+.splash .button .one {
+  width: 0;
+  height: 5px !important;
+  border-radius: 5px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  background-color: #fff;
+  margin-bottom: 5px;
+  animation: skrinkLine 0.5s;
+}
+.splash .button:hover {
+  color: #f541ef;
+}
+.splash .button:hover .one {
+  animation: drawLine 0.5s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
 }
 @keyframes fadeIn {
   0% {
@@ -35,5 +68,21 @@
   }
   100% {
     transform: translateY(0%);
+  }
+}
+@keyframes skrinkLine {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+@keyframes drawLine {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
   }
 }

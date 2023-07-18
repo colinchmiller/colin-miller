@@ -3,7 +3,7 @@ import s from "./style.module.css";
 export function Intro(props) {
   return (
     <div className={`container ${s.background}`}>
-      <div className="row mt-2">
+      <div className="row">
         <div className={`${s.fade_in} ${s.profile_img}`}></div>
 
         <div className="row mt-3">

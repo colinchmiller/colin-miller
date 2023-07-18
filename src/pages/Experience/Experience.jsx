@@ -3,7 +3,7 @@ import s from "./style.module.css";
 export function Experience(props) {
   return (
     <div className="container">
-      <div className="row mt-5">
+      <div className="row">
         <h1>Experience in Tech</h1>
         <div>
           <p>
