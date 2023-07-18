@@ -1,4 +1,7 @@
 import s from "./style.module.css";
+import plantIcon from "../../assets/images/plant.svg";
+import petIcon from "../../assets/images/pet.svg";
+import bookIcon from "../../assets/images/book.svg";
 
 export function About(props) {
   return (
@@ -8,8 +11,8 @@ export function About(props) {
       </div>
       <div className="row pt-5">
         <div className="col-lg-4 align-self-center">
-          <div className={`${s.fade_in} ${s.skill_text}  p-5`}>
-            <h2>Skills</h2>
+          <div className={`${s.fade_in} ${s.delay_2}  p-5`}>
+            {/* <h2>Skills</h2> */}
             <p>
               I'm always looking to build new skills and practice existing ones.
               To the right is a word cloud of the skills I've been developing.
@@ -19,7 +22,7 @@ export function About(props) {
         </div>
         <div className="col-lg-8">
           <div className="p5">
-            <div className={`${s.fade_in} ${s.word_cloud} `}>
+            <div className={`${s.fade_in} ${s.word_cloud} ${s.delay_4}`}>
               <div className={s.cloud_content}>
                 <h4 id={s.bootstrap} data-weight="5">
                   Bootstrap
@@ -69,19 +72,22 @@ export function About(props) {
         </div>
       </div>
 
-      <div className="row mb-3">
-        <h1>My Interests</h1>
+      <div className={`${s.fade_in} ${s.interests_title} ${s.delay_6}`}>
+        <h2>My Interests</h2>
         <p>
           I'm not just a web developer. I've got other interests as well. Some
           of these include:
         </p>
       </div>
 
-      <div className="row">
-        <div className="card ps-0 flex-row mb-3">
-          <div className="card-body">
-            <h4 className="card-title h5 h4-sm">Plants</h4>
-            <p className="card-text">
+      <div className="row ps-5 pb-3">
+        <div className={` ${s.interest_box} ${s.fade_in} ${s.delay_8}`}>
+          <div className={s.interest_icon}>
+            <img src={plantIcon} alt="plant icon" />
+          </div>
+          <div className={s.interest_text}>
+            <h4>Plants</h4>
+            <p>
               I love to grow plants, both indoors and outdoors. Sometimes they
               even combine. Every year I grow at least hot peppers, cilantro,
               and basil. Indoors I like to have at least one plant in every
@@ -91,11 +97,14 @@ export function About(props) {
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="card pe-0 flex-row mb-3">
-          <div className="card-body">
-            <h4 className="card-title h5 h4-sm">Dogs</h4>
-            <p className="card-text">
+      <div className="row ps-5 pb-3">
+        <div className={` ${s.interest_box} ${s.fade_in} ${s.delay_10}`}>
+          <div className={s.interest_icon}>
+            <img src={petIcon} alt="plant icon" />
+          </div>
+          <div className={s.interest_text}>
+            <h4>Dogs</h4>
+            <p>
               I love dogs. I have a young dog named Watson. He's a rescue from
               Kentucky. He's a dog of comfort, that enjoys sleeping in and
               finding the softest spots to get comfortable. He's very social
@@ -105,11 +114,14 @@ export function About(props) {
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="card ps-0 flex-row mb-3">
-          <div className="card-body">
-            <h4 className="card-title h5 h4-sm">Writing</h4>
-            <p className="card-text">
+      <div className="row ps-5 pb-3">
+        <div className={` ${s.interest_box} ${s.fade_in} ${s.delay_12}`}>
+          <div className={s.interest_icon}>
+            <img src={bookIcon} alt="plant icon" />
+          </div>
+          <div className={s.interest_text}>
+            <h4>Writing</h4>
+            <p>
               I've liked writing since I was a kid coming up with my own short
               stories based on dreams that I've had. Though I had a lull through
               my college years, I've gotten back into it since then. I'm
