@@ -1,7 +1,4 @@
 import s from "./style.module.css";
-import dogPic from "../../assets/images/watson.jpg";
-import plantsPic from "../../assets/images/colin-plants.jpg";
-import writingPic from "../../assets/images/typewriter.jpg";
 
 export function About(props) {
   return (
@@ -82,17 +79,7 @@ export function About(props) {
       </div>
 
       <div className="row">
-        <img
-          src={plantsPic}
-          className={`.img-fluid max-width: 100% ${s.img_top}`}
-          alt="Colin with plants"
-        />
         <div className="card ps-0 flex-row mb-3">
-          <img
-            src={plantsPic}
-            className={`card-img-left example-card-img-responsive ${s.img_left}`}
-            alt="Colin with plants"
-          />
           <div className="card-body">
             <h4 className="card-title h5 h4-sm">Plants</h4>
             <p className="card-text">
@@ -106,11 +93,6 @@ export function About(props) {
         </div>
       </div>
       <div className="row">
-        <img
-          src={dogPic}
-          className={`.img-fluid max-width: 100% ${s.img_top}`}
-          alt="Watson the dog"
-        />
         <div className="card pe-0 flex-row mb-3">
           <div className="card-body">
             <h4 className="card-title h5 h4-sm">Dogs</h4>
@@ -122,25 +104,10 @@ export function About(props) {
               have as many different personalities as people.
             </p>
           </div>
-          <img
-            src={dogPic}
-            className={`card-img-right example-card-img-responsive ${s.img_right}`}
-            alt="Watson the dog"
-          />
         </div>
       </div>
       <div className="row">
-        <img
-          src={writingPic}
-          className={`.img-fluid max-width: 100% ${s.img_top}`}
-          alt="Typewriter"
-        />
         <div className="card ps-0 flex-row mb-3">
-          <img
-            src={writingPic}
-            className={`card-img-left example-card-img-responsive ${s.img_left}`}
-            alt="Typewriter"
-          />
           <div className="card-body">
             <h4 className="card-title h5 h4-sm">Writing</h4>
             <p className="card-text">
