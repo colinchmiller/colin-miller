@@ -7,7 +7,7 @@ export function Experience(props) {
         <h1>Technical Experience</h1>
       </div>
 
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-3">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 pt-5">
         <div className="col">
           <div
             className={`${s.fade_in} p-5 mb-5 ${s.experience_card}`}
@@ -335,7 +335,7 @@ export function Experience(props) {
                   <p>Responsibilities::</p>
                   <ul>
                     <li>
-                      Diagnose and recommend repair services for computers,
+                      Diagnosed and recommended repair services for computers,
                       phones, and other technology
                     </li>
                     <li>

@@ -1,36 +1,4 @@
-.img_left {
-  max-width: 300px;
-  max-height: 300px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-.img_right {
-  max-width: 300px;
-  max-height: 300px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-.img_top {
-  display: none;
-}
-@media (max-width: 768px) {
-  .img_left {
-    display: none;
-  }
-  .img_right {
-    display: none;
-  }
-  .img_top {
-    display: block;
-    margin: 0;
-    width: 100%;
-    max-width: 100%;
-    padding: 0;
-  }
-}
-.background {
-  margin-top: 0;
-}
+/* awaiting new image before implementing
 
 .profile_img {
   display: block;
@@ -46,13 +14,27 @@
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+} */
+.about_title {
+  display: flex;
+  padding: 30px 0 20px 0;
+  justify-content: center;
 }
 
+.fade_in {
+  opacity: 0;
+  animation: fadeIn 1s, slideUp 0.5s;
+  animation-fill-mode: forwards;
+}
+.skill_text {
+  animation-delay: 0.2s;
+}
 .word_cloud {
   height: 300px;
-  background-color: #cfe2ff;
+  background-color: #bdbdbd;
   position: relative;
   margin-bottom: 20px;
+  animation-delay: 0.4s;
 }
 .cloud_content {
   display: grid;
@@ -67,14 +49,14 @@
   -ms-writing-mode: vertical-lr;
 }
 .cloud_content :nth-child(2n) {
-  color: #0090c1;
+  color: #fff;
 }
 .cloud_content :nth-child(2n + 1) {
-  color: #ddbe34;
+  color: #f541ef;
 }
-.cloud_content :nth-child(3n - 1) {
+/* .cloud_content :nth-child(3n - 1) {
   color: #a33;
-}
+} */
 .cloud_content h4 {
   font-size: 1.5rem;
   padding: 0.125rem 0.25rem;
@@ -190,15 +172,19 @@
   }
 }
 
-.fade_in {
-  animation: fadeIn 1s;
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
+  }
+}
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
   }
 }
