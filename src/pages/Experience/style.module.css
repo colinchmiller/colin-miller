@@ -1,6 +1,6 @@
 .experience_title {
   display: flex;
-  padding: 30px 0 20px 0;
+  padding: 40px 0 50px 0;
   justify-content: center;
 }
 .experience_title h1 {
@@ -29,6 +29,7 @@
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   background-color: #bdbdbd;
+  margin-bottom: 40px;
 }
 .experience_card:hover {
   background-size: 5px 100%, 5px 100%, 100% 5px, 100% 5px;
@@ -69,6 +70,15 @@
 }
 .delay_5 {
   animation-delay: 0.6s;
+}
+
+@media (max-width: 480px) {
+  .experience_title {
+    padding: 30px 0 10px 0;
+  }
+  .experience_card {
+    margin-bottom: 5px;
+  }
 }
 
 @keyframes fadeIn {

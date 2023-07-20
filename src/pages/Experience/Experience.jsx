@@ -7,10 +7,10 @@ export function Experience(props) {
         <h1>Technical Experience</h1>
       </div>
 
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 pt-5">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
         <div className="col">
           <div
-            className={`${s.fade_in} p-5 mb-5 ${s.experience_card}`}
+            className={`${s.fade_in} p-5 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#datasite"
           >
@@ -65,7 +65,7 @@ export function Experience(props) {
 
         <div className="col">
           <div
-            className={`${s.fade_in} ${s.delay_1} p-5 mb-5 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_1} p-5 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#hearthAndHome"
           >
@@ -127,7 +127,7 @@ export function Experience(props) {
 
         <div className="col">
           <div
-            className={`${s.fade_in} ${s.delay_2} p-5 mb-5 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_2} p-5 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#gem"
           >
@@ -180,7 +180,7 @@ export function Experience(props) {
         </div>
         <div className="col">
           <div
-            className={`${s.fade_in} ${s.delay_3} p-5 mb-5 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_3} p-5 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#eleven"
           >
@@ -238,7 +238,7 @@ export function Experience(props) {
         </div>
         <div className="col">
           <div
-            className={`${s.fade_in} ${s.delay_4} p-5 mb-5 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_4} p-5 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#braun"
           >
@@ -293,7 +293,7 @@ export function Experience(props) {
 
         <div className="col">
           <div
-            className={`${s.fade_in} ${s.delay_5} p-5 mb-2 ${s.experience_card}`}
+            className={`${s.fade_in} ${s.delay_5} p-5 ${s.experience_card}`}
             data-bs-toggle="modal"
             data-bs-target="#geekSquad"
           >
