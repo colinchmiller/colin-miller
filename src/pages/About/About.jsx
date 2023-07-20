@@ -11,7 +11,7 @@ export function About(props) {
       </div>
       <div className="row pt-5">
         <div className="col-lg-4 align-self-center">
-          <div className={`${s.fade_in} ${s.delay_2}  p-5`}>
+          <div className={`${s.fade_in} ${s.delay_2}  sm-p-2 md-p-5`}>
             {/* <h2>Skills</h2> */}
             <p>
               I'm always looking to build new skills and practice existing ones.
@@ -80,7 +80,7 @@ export function About(props) {
         </p>
       </div>
 
-      <div className="row ps-5 pb-3">
+      <div className="row sm-ps-5 pb-3">
         <div className={` ${s.interest_box} ${s.fade_in} ${s.delay_8}`}>
           <div className={s.interest_icon}>
             <img src={plantIcon} alt="plant icon" />
@@ -97,7 +97,7 @@ export function About(props) {
           </div>
         </div>
       </div>
-      <div className="row ps-5 pb-3">
+      <div className="row sm-ps-5 pb-3">
         <div className={` ${s.interest_box} ${s.fade_in} ${s.delay_10}`}>
           <div className={s.interest_icon}>
             <img src={petIcon} alt="plant icon" />
@@ -114,7 +114,7 @@ export function About(props) {
           </div>
         </div>
       </div>
-      <div className="row ps-5 pb-3">
+      <div className="row sm-ps-5 pb-3">
         <div className={` ${s.interest_box} ${s.fade_in} ${s.delay_12}`}>
           <div className={s.interest_icon}>
             <img src={bookIcon} alt="plant icon" />

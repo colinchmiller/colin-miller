@@ -175,10 +175,12 @@
 
 @media (max-width: 768px) {
   .word_cloud {
-    background-color: #fff;
+    background-color: #bdbdbd;
     width: auto;
     margin-left: auto;
     margin-right: auto;
+    height: 250px;
+    margin-bottom: 0;
   }
   .cloud_content h4 {
     --size: 1;
