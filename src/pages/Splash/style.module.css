@@ -58,6 +58,13 @@
   animation-fill-mode: both;
   animation-direction: alternate;
 }
+
+@media (max-width: 480px) {
+  .splash {
+    margin-top: -40px;
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
