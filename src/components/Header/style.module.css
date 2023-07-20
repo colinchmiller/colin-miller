@@ -93,6 +93,25 @@
   color: #f541ef;
 }
 
+@media (max-width: 480px) {
+  .header {
+    position: relative;
+    width: 100%;
+    border-radius: 0;
+    top: 0;
+    left: 0;
+  }
+  .header.active {
+    height: auto;
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+  }
+  .header.active ul li {
+    animation-delay: 0.1s;
+  }
+}
+
 @keyframes expandUp {
   0% {
     transform: scaleY(0);
