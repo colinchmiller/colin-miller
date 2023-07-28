@@ -21,7 +21,25 @@ export function About(props) {
           </div>
         </div>
         <div className="col-lg-8">
-          <div className="p5"></div>
+          <div className="p5">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Bootstrap</li>
+              <li>Node</li>
+              <li>NPM</li>
+              <li>jQuery</li>
+              <li>Reactjs</li>
+              <li>Firebase</li>
+              <li>ChakraUI</li>
+              <li>AEM</li>
+              <li>Adobe Target</li>
+              <li>Git</li>
+              <li>WordPress</li>
+              <li>Vercel</li>
+            </ul>
+          </div>
         </div>
       </div>
 
