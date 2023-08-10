@@ -45,6 +45,21 @@
 .delay_12 {
   animation-delay: 1.2s;
 }
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.buttons li {
+  background-image: linear-gradient(to top right, #620d5f, #f541ef);
+  list-style-type: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
 .interests_title {
   flex-direction: column;
   text-align: center;

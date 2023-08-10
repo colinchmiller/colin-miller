@@ -22,7 +22,7 @@ export function About(props) {
         </div>
         <div className="col-lg-8">
           <div className="p5">
-            <ul>
+            <ul className={s.buttons}>
               <li>HTML</li>
               <li>CSS</li>
               <li>Javascript</li>
