@@ -7,16 +7,14 @@
   text-align: center;
 }
 
-.splash h1,
+.splash svg,
 .splash h2,
 .splash h3 {
   opacity: 0;
   animation: fadeIn 1s, slideUp 0.5s;
   animation-fill-mode: forwards;
 }
-.splash h1 {
-  font-size: 4em;
-}
+
 .splash h2 {
   animation-delay: 0.2s;
 }
@@ -57,6 +55,17 @@
   animation: drawLine 0.5s;
   animation-fill-mode: both;
   animation-direction: alternate;
+}
+
+.splash svg {
+  width: 400px;
+  margin-bottom: 20px;
+}
+.splash svg rect {
+  fill: none;
+}
+.splash svg path {
+  fill: #fff;
 }
 
 @media (max-width: 480px) {
