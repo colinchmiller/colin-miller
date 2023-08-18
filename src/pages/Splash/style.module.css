@@ -63,6 +63,7 @@
 }
 .splash svg rect {
   fill: none;
+  stroke-width: 8px;
 }
 .splash svg path {
   fill: #fff;
