@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.splash svg,
+/* .splash svg, */
 .splash h2,
 .splash h3 {
   opacity: 0;
@@ -64,6 +64,9 @@
 .splash svg rect {
   fill: none;
   stroke-width: 8px;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: rectangle 4s forwards;
 }
 .splash svg path {
   fill: #fff;
@@ -72,6 +75,15 @@
 @media (max-width: 480px) {
   .splash {
     margin-top: -40px;
+  }
+}
+
+@keyframes rectangle {
+  from {
+    stroke-dashoffset: 2000;
+  }
+  to {
+    stroke-dashoffset: 0;
   }
 }
 
