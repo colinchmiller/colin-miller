@@ -1,0 +1,3 @@
+export function Skills(props) {
+  return <h1>Skills</h1>;
+}
