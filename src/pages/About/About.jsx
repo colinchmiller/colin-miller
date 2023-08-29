@@ -1,14 +1,14 @@
-import s from "./style.module.css";
+import { Title } from "../../components/Title/Title";
 import plantIcon from "../../assets/images/plant.svg";
 import petIcon from "../../assets/images/pet.svg";
 import bookIcon from "../../assets/images/book.svg";
+import s from "./style.module.css";
 
 export function About(props) {
   return (
     <div className="container">
-      <div className={`${s.fade_in} ${s.about_title} `}>
-        <h1>About Me</h1>
-      </div>
+      <Title>About Me</Title>
+
       <div className="row pt-5">
         <div className="col-lg-4 align-self-center">
           <div className={`${s.fade_in} ${s.delay_2}  sm-p-2 md-p-5`}>

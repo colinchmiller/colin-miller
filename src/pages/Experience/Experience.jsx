@@ -1,11 +1,10 @@
+import { Title } from "../../components/Title/Title";
 import s from "./style.module.css";
 
 export function Experience(props) {
   return (
     <div className="container">
-      <div className={`${s.experience_title}`}>
-        <h1>Technical Experience</h1>
-      </div>
+      <Title>Technical Experience</Title>
 
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3">
         <div className="col">
