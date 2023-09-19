@@ -9,6 +9,7 @@ export function Header() {
     setIsActive(!isActive);
   }
   return (
+    //take header and create an inner element for the buttons. Expand the main header to transparent background for toggle
     <header
       onClick={toggleHeader}
       className={`${s.header} ${isActive ? s.active : ""}`}
